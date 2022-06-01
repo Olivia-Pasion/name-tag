@@ -10,7 +10,7 @@ nameInput.addEventListener('input', () => {
 
     const name = nameInput.value;
     nameDisplay.textContent = name;
-console.log(nameDisplay)
+
 });
 
 
