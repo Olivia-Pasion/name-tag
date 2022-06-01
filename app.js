@@ -9,12 +9,9 @@ const nameDisplay = document.getElementById('name-display');
 nameInput.addEventListener('input', () => {
 
     const name = nameInput.value;
-
-        console.log('woohoo');
-
+    nameDisplay.textContent = name;
+console.log(nameDisplay)
 });
-
-
 
 
     // get info from user input
